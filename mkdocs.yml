@@ -2,14 +2,9 @@ use_directory_urls: True
 
 plugins:
   - search
-  - open-in-new-tab:
-      add_icon: true
+  - open-in-new-tab
 
 markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - admonition
-  - pymdownx.details
   - attr_list
 
 nav:
